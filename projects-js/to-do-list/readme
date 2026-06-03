@@ -1,0 +1,43 @@
+see how can learn from this tutorial video of scripting part and make my own application logic 
+
+step 1  what do i neet on the screen ??
+input 
+add btn 
+task list 
+
+so they grab the elements 
+const todo = document.getElementById('toto-input')
+const add_task_btn = document.getElementById('addbtn')
+const itemList = document.getElementsByClassName('list') this is the method where we can grab the element 
+
+now next logical thinking what should happens when button clicks or any event listner click it 
+when user click btn 
+gets input value 
+checks empty or not 
+create task ,empty task 
+show task 
+
+that line of code become this 
+addBtn.addEventListener("click", () => {
+
+});
+
+next step to grab the data from the user what i need to complete one task at a time 
+so we  grab it from
+this is the logic:
+   const newTask = {
+        id: Date.now(),
+        Text: tasktest,
+        completed: false
+    }
+    
+now the logic is behind the seeen we have to show to the user what they see how they see 
+so these lines comes under that 
+const li = document.createElement("li");
+li.innerText = taskText;
+list.appendChild(li);
+
+
+soo the most important thing  to forget tutotrial  we have to make this by tommo  without watching tut 
+without tut brainn starts connecting logic automatically after some times 
+it takes time but good things belive in extra practice so do it if u want a job inn tech because every around me they have a job  but not in the stable,postion  but i can make this happen by the end of  this year to understand every aspact of the job and requirement but i will do my 1st job at it not any other field or anything i can make itt i have to make it to stablize my future things gets better 

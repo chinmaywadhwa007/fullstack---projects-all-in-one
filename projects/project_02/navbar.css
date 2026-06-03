@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(26, 24, 24);
+}
+
+.nav01 {
+  background-color: darkgray;
+  color: rgb(253, 246, 246);
+  padding: 1px;
+}
+/* this will help me to focus on the whole components rather by choosing the one by one components */
+/* list style type will remove the . dot of the element thats ruined look of the page */
+/* How it works:
+
+First item → touches start edge
+Last item → touches end edge
+Equal space only between items
+No space on outer sides this is the method of how the space between work in the justify conetent */
+.nav01 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: rgb(210, 190, 190);
+}
+/* here is the how the space around will work in the justify content How it works:
+
+1.Equal space around each item
+2.Outer edges get half space
+3.xItems look more centered */
+
+/* and here is the another term called the space evenly 
+✅ How it works:
+
+Equal space between items
+Equal space on both outer edges
+Everything looks perfectly balanced */
+
+/* now lets custamize with the li thing in the nav01 */
+
+.nav01 li {
+  display: inline;
+}
+
+.nav01 a {
+  text-decoration: none;
+  color: rgb(23, 22, 22);
+  /* background-color: rgb(236, 221, 221); */
+  padding: 5px, 10px;
+  position: relative;
+}
+/* note postion relative is the parent of the child called absolute so the absolute will go the parant class to bechave that way...is called the absoute and the relative display */
+/* this will give the under line effect to the nav bar that looks beautifull */
+.nav01 a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(73, 228, 255);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav01 a:hover::after {
+  transform: scale(1);
+  color: white;
+}
+.nav01 .login-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav01 .login-btn:hover {
+  color: black;
+  transition: ease-in-out 0.5s;
+}
+
+
+/* nav2 will go here  */
+
+.h1{
+  color: rgb(155, 136, 136);
+}
+.nav02{
+  background-color: rgba(172, 255, 47, 0.521);
+ 
+  width: 250px;
+}
+
+.nav02 ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav02 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.nav02 a:hover{
+  background-color: darkgreen;
+  color: black;
+}
+
+.nav02 .btn-2{
+  background-color: green;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+.nav02 .btn-2:hover{
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  background-color:rgb(54, 167, 16);
+  border-radius: 5px;
+  border: 2px solid white;
+}
+/* from here we will start the styling of the variation 3  */
+.h4{
+    color: grey;
+}
+
+
+/* we will see the how nav bar works on the diff css styling here  */
+
+.nav03{
+  background-color: aqua;
+  padding:10px;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.nav03 ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.nav03 a{
+  text-decoration: none;
+  color: rgb(19, 19, 19);
+  padding: 10px;
+  display: block;
+}
+
+.nav03 .dropdown-content{
+  display: none;
+    
+}
+
+.nav03 .dropdown:hover .dropdown-content{
+  display: block;
+  position: absolute;
+  justify-content: center;
+  background-color: rgb(202, 182, 182);
+  color:rgb(72, 178, 146);
+    background-color: red;
+
+  
+
+}

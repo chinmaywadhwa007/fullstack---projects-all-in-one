@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom-practice</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        text-align: center;
+
+    }
+    .btnbutton{
+        cursor: pointer;
+    }
+    
+    .highlights {
+        background-color: yellow;
+        font-weight: bolder;
+        color: black;
+    }
+    #togglebtn{
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <!-- example 6 for the event handling how event handling works -->
+    <section id="section-6">
+        <h3>event handling in the dom </h3>
+        <button id="clickMe">click me !</button>
+    </section>
+    <!-- example 7 dom delgation  -->
+    <section id="section-7">
+        <h3>event delegation</h3>
+        <ul id="teaList">
+            <li id="Tea-item">green tea</li>
+            <li id="Tea-item">black tea</li>
+            <li id="Tea-item">Olang tea</li>
+        </ul>
+        <p>click on any tea to select it!!</p>
+    </section>
+
+<!-- example 8 form handling  -->
+    <section id="section-8">
+        <h3>form handling </h3>
+        <form action="" id="Feedback-Form">
+            <label for="Feedback-input">your feedback: </label>
+            <input type="text" id="Feedback-input" placeholder="enter feedback">
+            <button type="submit" class="btnbutton">submit button</button>
+            <p id="feedbackDisplay"></p>
+        </form>
+
+    </section>
+<!-- example  9 dom content loading  -->
+ <section id="section-9">
+    <h3>dom content loading</h3>
+    <p id="domStatus">waiting for  dom to load...</p>
+
+ </section>
+<!-- exmaplle 10 css manupilation how will be manupilate css  -->
+ <section id="eample-10">
+    <h3>CSS class manupilation </h3>
+    <p id="descriptation-text"> this will change the color !!!</p>
+    <button id="togglebtn">toggle highlight</button>
+
+ </section>
+
+
+    <script src="dm.js"></script>
+</body>
+
+</html>

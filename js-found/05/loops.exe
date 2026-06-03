@@ -1,0 +1,103 @@
+Loops are used when you want to repeat something multiple times instead of writing the same code again and again.
+
+there are the 3 diff types of loops 
+
+1 for loop 
+2 while loop 
+3 do while loop
+4 for...of loop 
+5 for...in loop 
+
+the diff between loops in javascript and there use case how they diff in diff condtion 
+
+| "Situation"       |" Use "                 |
+| ----------------- | ---------------------- |
+| Fixed count       | `for`                  |
+| Unknown condition | `while`                |
+| Arrays            | `for...of` or `.map()` |
+| Objects           | `for...in`             |
+| Async operations  | `for...of`             |
+
+ this is how we use the loop in backend 
+Loops = repeat logic
+Backend = heavy use of loops for data
+Use for...of for async operations
+Prefer .map(), .filter() for clean code
+
+
+
+guideline for the loop
+there are keywords like "for" "while" "do while" "for...of" "for...in " "for each" are there 
+
+there are the termination condtion policy without "infinite condtion"
+
+
+logic for the 1st question of adding upto 5 and varible used as sum
+this means "summing number" "1+2+3+4+5=15"
+
+let  sum = 0; 
+let i =1;
+
+while(i<=5){
+    sum+=i // sum= sum+1 
+    i++
+}
+
+console.log(sum);
+
+
+and with "sum+=1" means "1+1+1+1+1=5"
+
+
+logic catches for the question 3
+let teacollection = []
+
+let tea;
+do {
+    tea = prompt("enter your fav tea name (type stop if u want to finish it..!)");
+    this is for the not equal too
+    if (tea !== "stop") { This condition prevents "stop" from being added to the array. 
+        teacollection.push(tea)
+    }
+}
+while (tea !== "stop") This condition controls the loop and keeps it running until the user enters "stop"
+
+console.log(teacollection);
+for if condtion tea!=="stop" prevent storing "stop"
+for while condtion tea!=="stop" deside when to stop loop
+
+question 4 
+ans this is wrong why  i tried my self 
+let total = 3;// mistake starts from 0 not from 3
+let A=1;
+
+do{
+    total +=1;//error 2 starts from 1 will give 1+ 1+ 1=3
+    we have to use A here  to fix the exicution then ans will come out 1+2+3= 6
+    A++
+}
+while(A<=3)
+    console.log(total);
+    
+
+here we have the  diff loop  name for loop
+"JavaScript" for loop is a "control" flow statement that allows code to be executed repeatedly based on a condition. It consists of three parts: "initialization, condition, and increment/decrement"
+
+these three statement are as follow
+Statement 1: It is the initialization of the counter. It is executed once before the execution of the code block.
+Statement 2: It defines the testing condition for executing the code block
+Statement 3: It is the increment or decrement of the counter & executed (every time) after the code block has been executed.
+
+now here is  the logic or explanation to logic
+this is the logic or syntex for the for loop
+for (let x=1;x<=5;x++){
+    console.log{}
+}
+
+
+for we have to squre the number or multiplication logic will be as follow 
+🧠 Key concept
+Operation	   Meaning
+* 2	           double
+* itself	   square
+** 2	       square (modern)

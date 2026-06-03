@@ -1,0 +1,16 @@
+clousers are used everywhere reacts hooks, event handlers, private variables, debouncing, throttle, callbacks, async code and most important  interviews questions 
+
+A "clouser" depand on "scope"
+js has 3  types of scope 
+scope--->globel scope---> function scope ---> block scope 
+
+Key Interview Point
+
+Closures help:
+
+preserve state
+create private variables
+avoid global variables
+
+Closures has the lexical behavior means it store not copy
+clouser does not not copy 0 it store and keep when we ir tun inner function it will start from 12 3 because it store 0 before inner function works is called the lexical beahvior of the clouser

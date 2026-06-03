@@ -1,0 +1,27 @@
+what do u mean by the localstorage ??
+means is a feature of web browser that let browser saves your data directly on your device (in your browser)
+so it can be used later--->even after you close and reopen  the browser
+
+in simple words it puts build-in storage box for the website on your computer 
+
+
+note localstorage is not fully sequire or save to handle data like password or credit card details 
+
+what is the ddiff between the stringify and the parse() json
+the diff between in this two is 
+are two diff things but works oppositly 
+
+stringify--->js objects--->json string
+
+parse--->json string--->js objects
+
+so the question is why do we need them ??
+because the localstorage stores only in the string 
+apis often sends the data in the json string 
+so we convert object to string before storing/sending them 
+
+        Quick Difference Table
+Feature	    JSON.stringify()	  JSON.parse()
+Converts    Object → String	      String → Object
+Purpose	    Store/send data	      Read/use data
+Output      TypeString	          Object 

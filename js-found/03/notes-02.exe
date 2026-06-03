@@ -1,0 +1,11 @@
+what are the conditional statemnts in the js 
+
+JavaScript conditional statements are used to make decisions in a program based on given conditions. They control the flow of execution by running different code blocks depending on whether a condition is true or false
+
+types of the conditional statements
+
+1 if statements
+2nd if else statements
+3rd else if statements
+4th switch case statements
+5th ternary statements

@@ -1,0 +1,55 @@
+body {
+  background-color: #1a1a1a;
+}
+
+.d-block {
+  height: 500px;
+  width: 250px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 20px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  margin-top: 15px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: white;
+}
+
+.card-link:hover {
+  color: rgb(19, 247, 61);
+}
+.h5 {
+  color: aquamarine;
+}
+/* “!important should be avoided because it breaks the natural cascade and specificity system of CSS. It should only be used in rare edge cases like overriding third-party styles.” */
+.footer-section .nav-link,
+.footer-section .text-body-secondary,
+.footer-section .text-body-light,
+.footer-section .text-body-primary {
+  color: red;
+}
+.footer-section .nav-link:hover {
+  color: white;
+}
+.footer-section {
+  border-radius: 10px;
+}

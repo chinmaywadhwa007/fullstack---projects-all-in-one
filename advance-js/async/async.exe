@@ -1,0 +1,31 @@
+why async awaits exist before this handing async code with the promise looked like this 
+
+fetchData()
+  .then((data) => {
+    console.log(data);
+    return processData(data);
+  })
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(err);
+  }); 
+
+  async and awaits are used to handle asynchronus operations in a cleaner way and more relaiable way 
+
+  asynchronus operations are task that takes times like
+  .fetching data from the apis 
+  .reading files 
+  .connecting database 
+  .waiting for the payment confirmation
+  .uploading an image 
+  instead of waiting or blocking the program js continues running the other code while waiting 
+
+
+  before async/awaits
+  "call backs" 
+  "promises" 
+  this works but when many  async operations are chained, code become harder to read
+
+  

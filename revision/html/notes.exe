@@ -1,0 +1,10 @@
+so we have the 1st thing to notedown that what is the diff between the global and the local artributes in the htmml 
+as follow like local attributes we have "the href src disabled cols" this are the local attributes 
+
+and for the global once we have the "id class style title lang hidden data tabindex" so this are the global attributes in the html 
+lets understand the some unknown attributes like tabindex specifies the tabbling order of an element for the keyboard navigations improving accessbility 
+
+we have learn the new thing here the fig tag how the "fig tag" works here The <figure> HTML element represents self-contained content, potentially with an optional caption, which is specified using the <figcaption> element. The figure, its caption, and its contents are referenced as a single unit.
+
+
+"Accessible Rich Internet Applications "(ARIA) is a set of roles and attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.

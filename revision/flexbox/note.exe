@@ -1,0 +1,59 @@
+HERE WHAT IS "FLEXBOX" IN THE CSS ??
+ans.  "flexbox" is an property which uses the row or the column at one at a time but it helps to under the strongest like if u want to change the direction use the column property of the "flexbox" this is called the "FLEXBOX"
+this is my defination to understand the "flexbox" but now lets understand what google is saying
+"Flexbox" is a CSS layout system used to arrange elements in one direction (row OR column) with powerful alignment and spacing control.
+
+👉 Think like this:
+
+"Flexbox" = 1-dimensional layout (row or column) it use for the cards layout mainly
+uses of the "flexbox"
+✅ Align items align "item moves aorund the top to bottom "
+✅ Distribute space
+✅ Make responsive layouts
+✅ Center elements easily
+✅ Handle dynamic content size and for the cards
+
+main thing in the "flexbox" how the "flexbox" works in the system let me discribe u in an easy way 
+🎯 "Flexbox" Main Concepts
+
+There are 2 axes
+
+1️⃣ "Main Axis" → direction of layout
+2️⃣ "Cross Axis" → perpendicular direction
+
+If row →
+"Main axis" = horizontal
+"Cross axis"= vertical
+
+If column →
+"Main axis" = vertical
+"Cross axis" = horizontal
+
+there  are the diff types of properties which we use in the flexbox which we learn today 
+1 "flex direction" = controls the direction of the item or the container 
+=flex-direction: row;
+flex-direction: column;
+flex-direction: row-reverse;
+flex-direction: column-reverse;
+this are the 1st type of property we use inn the flex direction we will the example letter
+
+2nd justify content = "justify content moves around the left to right" 
+it will align the main element 
+here the some property which we use in this section 
+justify-content: center;(this means all the item will align in the center )
+justify-content: space-between;(this means it align in the center but have space in between them as the name suggest )
+justify-content: space-around;(this means it align item in center same as between but the diff is in the edges it gives space in the edges also and between fails to do that )
+justify-content: space-evenly ( its an perfect for the evenly spaces in around or the in between it covers edges too...)
+
+3rd flex wrap = { it  controls the wrapping of the container
+    "flex-wrap: wrap;
+flex-wrap: nowrap;(means all the item contains in the same line may  "shrink" or may  "overflow") (uses of the flex wrap navbar corosiual horizontal menu tabs )
+flex-wrap:(👉 Items move to next line when space ends) uses in the "card layout" "product grid" "gallery" "responsive design" 
+ "wrap-reverse":(means the same as the flex wrap but in the opposite directions means if normal wrap covers row 1 top row 2 below then the  wrap reverse will happen in this form row 3 bottom and the row 4 above this is called the wrap reverse) "
+}
+
+lets understand  the "flex wrap"=is a "Flexbox" container property that controls whether flex items stay in one line or move to the next line when there is not enough space.  
+
+
+
+Grid = 2-dimensional layout (row AND column)

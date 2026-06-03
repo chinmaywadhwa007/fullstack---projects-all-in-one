@@ -1,0 +1,29 @@
+body{
+    background-color: #1a1a1a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+}
+.card{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-link:hover{
+    cursor: pointer;
+    color: grey;
+}

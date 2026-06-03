@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox class </title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+
+<body>
+
+    <h1>flexbox demo guide how it works all the property</h1>
+    <h2>lets starts...!</h2>
+    <div class="container">
+        <h2>default flex (row)</h2>
+        <div class="flex-container">
+            <div class="circle pastel-1">1</div>
+            <div class="circle pastel-2">2</div>
+            <div class="circle pastel-3">3</div>
+            <div class="circle pastel-4">4</div>
+            <div class="circle pastel-5">5</div>
+        </div>
+
+    </div>
+    <div class="flex-container">
+        <h2>default flex (column)</h2>
+        <div class="flex-container" style="flex-direction:column-reverse;">
+            <div class="circle pastel-1">1</div>
+            <div class="circle pastel-2">2</div>
+            <div class="circle pastel-3">3</div>
+            <div class="circle pastel-4">4</div>
+            <div class="circle pastel-5">5</div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>justify-content = space-between</h2>
+        <div class="flex-container" style="justify-content:space-around;">
+            <div class="circle pastel-1">1</div>
+            <div class="circle pastel-2">2</div>
+            <div class="circle pastel-3">3</div>
+            <div class="circle pastel-4">4</div>
+            <div class="circle pastel-5">5</div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>algn item - center </h2>
+        <div class="flex-container" style="align-items:center;">
+            <div class="circle pastel-1">1</div>
+            <div class="circle pastel-2">2</div>
+            <div class="circle pastel-3">3</div>
+            <div class="circle pastel-4">4</div>
+            <div class="circle pastel-5">5</div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>flex wrap </h2>
+        <div class="flex-container " style="flex-wrap: wrap-reverse;">
+            <div class="circle pastel-1">1</div>
+            <div class="circle pastel-2">2</div>
+            <div class="circle pastel-3">3</div>
+            <div class="circle pastel-4">4</div>
+            <div class="circle pastel-5">5</div>
+            <div class="circle pastel-5">6</div>
+            <div class="circle pastel-5">7</div>
+            <div class="circle pastel-5">8</div>
+            <div class="circle pastel-5">9</div>
+            <div class="circle pastel-5">10</div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>align content with wrap </h2>
+        <div class="flex-container " style="flex-wrap: wrap; align-content: space-around;">
+            <div class="circle pastel-1">1</div>
+            <div class="circle pastel-2">2</div>
+            <div class="circle pastel-3">3</div>
+            <div class="circle pastel-4">4</div>
+            <div class="circle pastel-5">5</div>
+            <div class="circle pastel-5">6</div>
+            <div class="circle pastel-5">7</div>
+            <div class="circle pastel-5">8</div>
+            <div class="circle pastel-5">9</div>
+            <div class="circle pastel-5">10</div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>order property </h2>
+        <div class="flex-container " style="flex-wrap: wrap; align-content: space-around;">
+            <div class="circle pastel-1"style="order:4">1</div>
+            <div class="circle pastel-2"style="order:5">2</div>
+            <div class="circle pastel-3"style="order:">3</div>
+            <div class="circle pastel-4"style="order:">4</div>
+            <div class="circle pastel-5"style="order:">5</div>
+            <div class="circle pastel-5"style="order:">6</div>
+            <div class="circle pastel-5"style="order:">7</div>
+            <div class="circle pastel-5"style="order:">8</div>
+            <div class="circle pastel-5"style="order:">9</div>
+            <div class="circle pastel-5"style="order:">10</div>
+        </div>
+
+    </div>
+</body>
+
+</html>

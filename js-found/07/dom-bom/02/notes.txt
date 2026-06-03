@@ -1,0 +1,55 @@
+theory explanation of the each code 
+⚡ What actually happens in browser
+Page loads
+JS attaches click listener to button
+User clicks button
+Function runs
+Text updates instantly
+
+
+how innerText works in the js 
+it replaces whatever inside the P
+👉 innerText is a property that gets or sets the visible text inside an element
+in this all the tags are removed only text remains 
+when to use the innerText
+you only want text property
+you don't want to html interpreted 
+safar (prevents injections issues)
+
+performance difference between innerText and innerHTML
+👉 innerText
+Slower
+Because it calculates styles (what’s visible)
+
+👉 innerHTML
+Faster
+Directly works with HTML string
+
+user innerHTML when we need this 
+1 You trust the content
+2 Small UI updates
+3 Static HTML insertion 
+
+
+flow of the dark toggle 
+Flow in simple words
+1.User clicks button
+2.JS runs function
+3."dark" class gets added/removed
+4.UI changes (light ↔ dark mode)
+
+    Think of it like a switch:
+
+    OFF → no "dark" class → light mode
+    ON → "dark" class → dark mode
+
+concept of todo list  how it  works 
+
+document.getElementById("add").addEventListener("click", () => {
+    const value = document.getElementById("input").value;
+
+    const li = document.createElement("li");
+    li.innerText = value;
+
+    document.getElementById("list").appendChild(li);
+});

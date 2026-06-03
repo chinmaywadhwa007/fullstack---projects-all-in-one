@@ -1,0 +1,18 @@
+here we will learn about the grid what is grid how it better from the flex box let's see
+
+1st defination what is grid ??
+
+layout system to arrange items in rows + columns.
+
+flexbox = one directions item in row and the column 
+grid = two direction item row and column 
+
+example think like table layout with the more elegant and the beutifull and mordern 
+
+lets understand the properites of the grd and how it works with the grid and its layout in other file 
+
+1st property "grid-template-column" this means we give spacing or a number that how can u take the full use of the page this is called the "grid-template-column"
+
+2nd property is "grid-template-row" 
+
+basically "grid" can make "good layout" for the articles or the gallery by using the property of the grid  it follows both 2d "rows" and "column"...!

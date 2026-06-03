@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice solving</title>
+</head>
+<!-- manupilation power of the js-->
+<style>
+    body {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    .highlight {
+        background-color: yellowgreen;
+        font-weight: bold;
+        color: black;
+
+    }
+
+    .highlights {
+        background-color: yellow;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .hidden {
+        display: none;
+    }
+    #CoffeeOrder{
+        font-weight: bolder
+    }
+    #removeTask{
+        align-items: center;
+    }
+    
+</style>
+
+
+<body>
+    <!-- javascript dom fun examples -->
+    <!-- example 1 -->
+    <section id="example1">
+        <h2 >accessing dom elements</h2>
+        <p id="mypara">
+            my name is chinmay wadhwa click to change its behavior
+
+        </p>
+        <button id="changeTextColor">change text</button>
+    </section>
+
+
+    <!-- example 2  -->
+    <section id="example-2">
+        <h4>traversing the DOM</h4>
+        <ul id="cities">
+            <li >london</li>
+            <li>boston</li>
+            <li>japan</li>
+            <li>belgium</li>
+        </ul>
+        <button id="citybtn">highlight 1st city</button>
+    </section>
+<!-- example 3 manupilating dom elements  -->
+    <section id="example-3">
+        <h2>manupilating DOM elements</h2>
+        <div id="CoffeeOrder">order: <span id="CoffeeType">
+            Latte
+        </span></div>
+        <button id="changeOrder">change order to espresso</button>
+    </section>
+    
+<!-- example 4 creating and inserting elements -->
+ <section id="example-4">
+        <h3>creating and inserting elements</h3>
+        <button id="addNewBtn">add a new item to the shopping list </button>
+        <ul id="shoopinglist">
+            <li>bread</li>
+            <li>milk</li>
+        </ul>
+ </section>
+ <!-- example 5 removeing the element  -->
+    <section id="example-5"> 
+        <h3>removing the dom element from the task</h3>
+        <ul id="taskList">
+            <li>task 1</li>
+            <li>task 2</li>
+            <li>task 3</li>
+        </ul>
+        <button id="removeTask">btn</button>
+    </section>
+    <script src="dom.js"></script>
+</body>
+
+</html>

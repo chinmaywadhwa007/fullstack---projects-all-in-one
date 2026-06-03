@@ -1,0 +1,26 @@
+what is  the functions
+a functions is just a resuable block of code 
+
+function (greet){
+    console.log("hello chinmay")
+}
+greet()
+
+output 
+hello chinmay 
+
+why function?
+avoid repeating code
+organize logic
+resume anytime 
+
+
+
+
+now let's talk about the functions another term callled the arrow function 
+
+af is am js are in consine way to write the function using the syntax =>automatically binding this form the surrounding context
+const add (a,b)=> a+ b;
+console.log(add(5,3))
+
+output will be 8

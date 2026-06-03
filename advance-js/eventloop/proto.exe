@@ -1,0 +1,47 @@
+why  this method is important because 
+
+suppose when app goes pass to 10,000 users per day but if we don't use the protoype method 
+we have to create functions for the diff user and calling from the function  but if use the protoype method 
+all user can shared one method 
+its efficent and scalable this is how js engines optimizes memory 
+
+top question interview can ask
+
+1. What is "Prototype" in JavaScript?
+
+A prototype is an object from which other objects can inherit properties and methods.
+JavaScript uses "prototypes" to "implement inheritance".4
+why prototype exit 
+without prototype
+every obj  gets a seperates copies of methods
+with protoype 
+all object shares one method 
+efficent memory useage
+
+2. diff between the class and the prototype?
+ans b0th are the  same thing just a way of writing syntax is diff 
+
+
+        "Main Differences"
+Class	             Prototype
+Cleaner syntax	     Older syntax
+Easier inheritance	 Manual inheritance
+Looks like Java/C++	 Pure JS style
+Introduced in ES6	 Exists from beginning
+Still uses prototype internally	Actual engine mechanism
+
+
+3. how does new keyword works ??
+ans. it creates the whole new object and this will be the empty object 
+
+4. what is prototype chain and how it works 
+ans. the pt chain is the chain in js uses to search for the properties/methods
+works flow of the prototype 
+user1
+   ↓
+Person.prototype
+   ↓
+Object.prototype
+   ↓
+null
+

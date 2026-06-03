@@ -1,0 +1,27 @@
+console.log(num1 == num2); // it will give u boolian value other the value is true or false that's it
+console.log(num1 == num3); // it will give u a false as compare to previous one 
+console.log(num1<num3) //it will show u how num1 is lesser value then the num3
+console.log(num1>num3);// it will show u that num1 is not a bigger value than num 3 
+
+these are the types of datatypes 
+what  is datatypes 👉 "(Data types) tell the computer what kind of data you are working with."
+
+"primative" have the (string boolean null undefined symbol bigint) 
+
+"non primative" datatypes is called the objects it include's  ("Arrays" and "objects" and "function")
+
+
+
+lets talk about the diff between arrays and the objects 
+
+Key Difference (Easy Rule)
+Feature	      Object	                Array
+Stores	      Single entity	            Multiple items
+Access	      By key (user.name)	    By index (users[0])
+Use case	  One user	                List of users
+
+💡 Final Line (Remember This)
+
+👉 Object = one user
+👉 Array = multiple users
+👉 Array of objects = real-world data

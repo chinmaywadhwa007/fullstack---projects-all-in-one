@@ -1,0 +1,21 @@
+so we have to active our tailwind css in the project we have to put the simple line in the terminal 
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css "--watch" this line is very imp in the for the tailwind to learn if we stop this then the tailwind will not works properly terms works as the nodemon in the backend if we don't use this we have to put the commond after everychances but this will help to  focus on the productions time 
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+
+new topic here 
+axis            direction                 example
+Y-axis          left-right                time
+X-axis          top-bottom                score 
+
+how can we realize what padding number should we have four the values
+Class	Value	    Pixels
+p-1	    0.25rem	    4px
+p-2	    0.5rem	    8px
+p-3	    0.75rem	    12px
+p-4	    1rem	    16px
+p-5	    1.25rem	    20px
+p-6	    1.5rem	    24px
+
+tommorow task
+i have to learn more about animation in the tailwind 

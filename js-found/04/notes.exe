@@ -1,0 +1,19 @@
+🚀 Think Like This (Important for Interviews):
+
+When you see:
+
+"replace element" → use index assignment
+"add element" → use push()
+"remove element" → use pop() / splice()
+
+
+declare the  array  named citiesvisited containing "mumbai " and "sydney" and add "berlin" to  the array by using push method 
+*/
+// declare the array here
+let citiesvisited = ["mumbai","sydney"]
+
+//  logic will go here 
+citiesvisited.push("berlin") in this we have used the push method  by adding berlin 
+// output will go here 
+
+console.log(citiesvisited);

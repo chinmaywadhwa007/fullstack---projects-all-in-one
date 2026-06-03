@@ -1,0 +1,11 @@
+this is the folder where we use to learn about the "next js" and how to apply it in your folder 
+step 1st first we have to use the the terminal commond for the "next js" 'npx create-next-app@latest' by this we can apply the property of the "next js" 
+ next js - Next.js is a React framework that helps you build full-stack web apps easily with better performance and built-in features.
+
+
+ if we have to compare it with the better example like 
+ concept     frontend            backend
+ base        react               node.js
+ framework   next.js             express.js
+
+ and we can also say that in backend express only used for building backend but in next js we can say that can build frontend plus backendby its  own...

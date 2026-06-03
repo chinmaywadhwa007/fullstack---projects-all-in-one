@@ -1,0 +1,59 @@
+now lets talk about the higher order functions how they works how we apply them in our projects
+
+
+a callback function is a function that is passed to another function and exicuted later 
+
+a function can accept another fn as paramters 
+callbacks allow can fn to call another fn at latter time
+a callback fn can exicutes after another fn has finished 
+
+"JavaScript" executes code line by line (synchronously), but sometimes we need to delay execution or wait for a task to complete before running the "next function". "Callbacks" help achieve this by passing a function that is executed later.
+
+
+use case of settimeout in js 
+
+Callbacks are widely used in
+
+API requests (fetching data)
+Reading files (Node.js file system)
+Event listeners (clicks, keyboard inputs)
+Database queries (retrieving data)
+
+
+will discuss letter 
+
+ better options 
+function step(msg,delay){
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            console.log(msg);
+            resolve();
+        },delay)
+    })
+}
+async function runsteps() {
+    await step("step -1", 1000);
+    await step("step -2", 2000);
+    await step("step -3", 3000);
+}
+
+runsteps();
+
+
+ better options 
+function step(msg,delay){
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            console.log(msg);
+            resolve();
+        },delay)
+    })
+}
+async function runsteps() {
+    await step("step -1", 1000);
+    await step("step -2", 2000);
+    await step("step -3", 3000);
+}
+
+runsteps();
+

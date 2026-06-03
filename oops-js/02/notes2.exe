@@ -1,0 +1,29 @@
+Difference:           Encapsulation vs Abstraction
+Concept  	                     Meaning
+Encapsulation	      Data hide        control access
+Abstraction	          Hide complexity  show essential features
+
+what will be the use case of the Abstraction
+since you'r building 
+api calls ---> hide fetch logic
+services  ---> hide busness logic 
+components---> hide ui complexity
+librarries---> hides implimentation
+
+
+Feature	    Encapsulation 🔒	 Abstraction 🎯
+Purpose	    Protect data	     Hide complexity
+Focus	    Variables	         Methods / behavior
+Example	    #balance	         withdraw()
+User sees	Controlled acces     Simple interface
+
+
+Encapsulation  is used to achive Abstraction
+
+first ---> hides data (Encapsulation)
+then  ---> expose only usefull method(Abstraction)
+
+if interviewer asked 
+
+"Encapsulation" is about restricting direct access to data and protecting it using private fields and controlled methods, while "abstraction" is about hiding complex implementation details and exposing only the necessary functionality to the user.
+

@@ -1,0 +1,75 @@
+what  to u mean by for..of loop in the js ??
+for (const num of numbers)
+👉 This means:
+
+“Take each value from the array one by one”
+
+So instead of using index (i), you directly get values:
+
+Iteration	num
+1	        1
+2	        2
+3	        3
+4	        4
+
+🚀 Clean mental model
+for...of → get values
+if(condition) → stop (break)
+else → store
+
+
+new topic for study means 
+boject.freeze() is the topic where when we make the object it can change by the time when requirement comes but the ccase is diff in the boject.freeze it can freeze the object u can't change the object in the real world
+
+why do we use this protect improtant data or prevent acccidential changes 
+where we used it in the react js in state managment 
+state should be imutable helps avoid bugs and unexpacted ui behavior
+how it diff from the const key variable 
+
+it is diff from the const  because of the change access like we can change the const but we can;t change the freeze 
+
+const can be reassignment but the object can still be modified 
+object.freeze prevent modifications of the object itself 
+
+
+
+what is  the diff between for in and for of
+
+Feature	            for...in	           for...of
+Works on	        Objects	           Arrays, strings, etc
+Returns	            Keys	           Values
+Use case	        Object iteration   Array iteration
+
+interview liner... 
+"for...in is used to iterate over object keys, while for...of is used to iterate over iterable values like arrays and strings."
+
+
+lets learn new thing for  each loop method of aaray instances  exicutes function for each array element
+
+const array =["1","2","3","4"]
+array.foreEach((element)=>console.log(element));
+output will comes 
+1
+2
+3
+4
+
+
+
+syntax of the forEach
+forEach(callbackFn)
+forEach(callbackFn, thisArg)
+
+parameters of the syntax of the array 
+"callbackFn":- A function to execute for each element in the array. Its return value is discarded. The function is called with the following arguments:
+
+"element":-The current element being processed in the array.
+
+"index"=The index of the current element being processed in the array.
+
+"array"= The array forEach() was called upon.
+for each method is an iterative method it calls provided callbackfn function once for each element in an array is ascending index order 
+
+thisArg: a value to use this when exicuting callbackFn. see iterative methods
+
+with this we have to new keyword called the function in the js 

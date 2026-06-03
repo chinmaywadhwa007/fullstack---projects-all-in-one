@@ -1,0 +1,17 @@
+we have new thing to learn "fetch api" it provides interface for making https requists and processing the response 
+fetch is the morden way of writing code the older version called "XMLHttpRequest"
+
+the fetch() is a method that return a promise which is fulfilled a response object representing the serrver response
+
+how the workflow works in this fetch api so far
+User input
+   ↓
+stored in variable
+   ↓
+passed to function
+   ↓
+used in API
+   ↓
+response comes back
+   ↓
+display on screen

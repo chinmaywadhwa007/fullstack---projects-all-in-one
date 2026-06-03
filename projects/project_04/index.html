@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap page </title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="boot.css">
+</head>
+<!-- assignment to  build web page using corosual and  -->
+
+<body>
+    <!-- here comes the corosual where we can put this as the display of the page  -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/practice/images/virat.jpg" class="d-block w-100" alt="virat image ">
+            </div>
+            <div class="carousel-item">
+                <img src="/practice/images/anime.jpg" class="d-block w-100 " alt="anime image ">
+            </div>
+            <div class="carousel-item">
+                <img src="/practice/images/itachi uchiha.jpg" class="d-block w-100" alt="itachi  image">
+            </div>
+        </div>
+        <!-- note  for the color or filter  
+            🎯 Simple Analogy
+            color = repainting text ✍️
+            filter = applying effect on photo 📸
+            You can’t change photo color with color, you need filters. -->
+        <!-- basic explaination why we choose filter over color  -->
+        <!-- "CSS color only affects text and some SVGs, not background images. Bootstrap carousel icons are SVG background images, so we use filter or override the SVG itself." -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- from this we use card section -->
+    <div class="card-container">
+        <div class="card" style="width: 18rem;">
+            <img src="/practice/images/virat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p>
+            </div>
+
+            <div class="card-body">
+                <a href="https://www.google.com/" class="card-link">google link</a>
+                <a href="https://www.instagram.com/" class="card-link">insta link</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/practice/images/itachi uchiha.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p>
+            </div>
+            <div class="card-body">
+                <a href="https://www.youtube.com/" class="card-link">youtube link</a>
+                <a href="https://github.com/" class="card-link">git-hub link</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/practice/images/anime.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p>
+            </div>
+
+            <div class="card-body">
+                <a href="https://getbootstrap.com/docs/5.3/components/tooltips/" class="card-link">bootstrap link</a>
+                <a href="https://www.bing.com/aclk?ld=e8X4bLAbhcvP4p7AsVAe6CXjVUCUxSVwUpBGkEarZ6C-Cn6A8C86QPc1W0PSA6NNvzliuOrb1ltZoYfylrRlZ8fpOFYaMlGBWvCLRQLXewnl6pOLs6QuW5Wukj6_u9QNiY4mcAZFgAChwtQuPPGXnxRDaeEja70KHMk0JHIO1FfhOXnl7NC2K8TmNpi9bPSCKrUbJgB7e_9TcHvLd0ayuPOsGDg-E&u=aHR0cHMlM2ElMmYlMmZjaGF0Z3B0LmNvbSUzZnV0bV9zb3VyY2UlM2RtaWNyb3NvZnQlMjZ1dG1fbWVkaXVtJTNkcGFpZF9zZWFyY2glMjZ1dG1fY2FtcGFpZ24lM2RNU0ZUX0NfU0VNX0JCUl9Db3JlX0NIVF9CQVVfQUNRX1BFUl9NSVhfQUxMX0FQQUNfSU5fRU5fMTEwNjI1JTI2Y19pZCUzZDU3MDYxMzAxNCUyNmNfYWdpZCUzZDExNzUzNzk5MjA1NTg2NTklMjZjX2NyaWQlM2QlMjZjX2t3aWQlM2Rrd2QtNzM0NjE2ODkxNzA1OTUlM2Fsb2MtOTAlMjZjX2ltcyUzZCUyNmNfcG1zJTNkMTU3NjU3JTI2Y19udyUzZG8lMjZjX2R2YyUzZGMlMjZtc2Nsa2lkJTNkNTZlOTVhMGU4NjVhMTllZWQzYmYzM2M5ZmI3YzExYWE&rlid=56e95a0e865a19eed3bf33c9fb7c11aa"
+                    class="card-link">chatgpt link</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/practice/images/anime.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p>
+            </div>
+
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer section -->
+    <div class="footer-section">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col mb-3"> <a href="/"
+                    class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+                    aria-label="Bootstrap">
+                    <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg> </a>
+                <p class="text-body-primary">© 2025</p>
+            </div>
+            <div class="col mb-3"></div>
+            <div class="col mb-3">
+                <h5 class="h5"> Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">About</a></li>
+                </ul>
+            </div>
+            <div class="col mb-3">
+                <h5 class="h5">Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">About</a></li>
+                </ul>
+            </div>
+            <div class="col mb-3">
+                <h5 class="h5">Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-primary">About</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<!-- assigmnet completed by chinmay wadhwa  -->
+
+</html>

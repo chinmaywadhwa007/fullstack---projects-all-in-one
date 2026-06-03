@@ -1,0 +1,73 @@
+Promises in JavaScript
+
+Promises are used everywhere:
+
+API calls
+fetch()
+React apps
+authentication
+databases
+async/await
+Node.js
+backend development
+
+If you understand Promises properly:
+
+async JavaScript becomes much easier
+async/await becomes super simple
+real-world projects become easier to build 
+
+1st understand the problem before Promises
+js used the callbacks
+
+What is a Promise?
+
+A Promise is:An object representing the eventual completion or failure of an asynchronous operation.
+
+Simple meaning:
+Promise = Future Result
+Example:
+food delivery
+either:
+delivered ✅
+failed ❌
+
+Until then:
+promise is pending Same in JS.
+
+running states for the promise
+Promise States
+
+A Promise has 3 states:
+
+State	        Meaning
+Pending	        still running
+Fulfilled	    success
+Rejected	    failed
+
+the difff between the construtor and the promise
+
+                  "Main Difference"
+     "construtor"                    "promise"
+Constructor Function	     Promise Constructor
+Creates normal objects	     Creates Promise object
+Used for object blueprints	 Used for async handling
+Uses this	                 Uses resolve/reject
+Returns custom object	     Returns Promise
+Example: User, Car	         Example: fetch, login
+
+
+why  they feel similer 
+because the promises itself is also a construtor family
+Real Analogy
+Constructor
+Like a "factory" making products.
+
+Car factory → creates cars
+"Promise"
+Like a "delivery tracker".
+
+pending → delivered → failed
+
+Promise is about tracking async results. 
+

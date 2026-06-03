@@ -1,0 +1,70 @@
+here we will study how the size of the screen 1st 1st of all we have to put it into the sm size (smaller size) and the we have to move to the size where we have to go to max width or height 
+like we can say that sm:text-sm text-3xl  this is the formet we have to use from now to make this 
+
+
+vertical means top to bottom
+horizontal means lefft to right
+
+👉 “Why Tailwind uses rem instead of px?”
+
+answer:Because rem is responsive and scales with root font size, making UI more accessible and consistent across devices.
+and p-3 means i   px  will be 3x4 18px we have to multiply by 4 four fig  out what pixel it is 
+
+Class	    Value(rem)	        Pixels
+p-1     	0.25rem	            4px
+p-2	        0.5rem	            8px
+p-4	        1rem	            16px
+p-6	        1.5rem	            24px
+p-8	        2rem	            32px
+
+this is the types of the padding we are using in the tailwind css 
+p-8 → all sides (top, right, bottom, left)
+px-8 → left + right
+py-8 → top + bottom
+pt-8 → top only
+pb-8 → bottom only
+
+
+now lets understand how the project will be worked in given explanation
+1st section will be "body" section how we use the "body" part of the section 
+
+bg-slate-950 → dark background
+flex → enables flexbox
+items-center → vertical center(top to bottom)
+justify-center → horizontal center(left to right)
+min-h-screen → full height of screen
+
+👉 Result:
+ card is perfectly centered in the middle of the screen
+
+now this section deside the whole  things how your card design looks like
+mx-auto → center horizontally
+max-w-md → max width on small screens
+rounded-xl → rounded corners
+shadow-md → card shadow
+bg-white → white background
+⭐ Important Responsive Part:
+md:max-w-2xl
+overflow -hiddin -> means for to hide from the edges due to img size to will go  out from the container thats why we use the over-flow hidden 
+
+👉 Means:
+
+On medium screens (≥768px) → width increases
+
+📌 So:
+Mobile → small card
+Tablet/Desktop → wider card
+
+
+the shrink concept of the img if we don't use that the shrink when we reduce the size of that img will reduce its size but if we use the shrink concept with the shrink-0 it will stay the same img while reducing the size of the screen
+
+another small word but imp "tracking-wide"
+it's just the word where we used the spacing between words like hello to h e l l o this is called the tracking wide
+
+Class	              Effect
+tracking-tight	      letters closer
+tracking-normal	      default
+tracking-wide	      slightly spaced
+tracking-wider	      more space
+tracking-widest	      maximum space
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how screen is shrinking for mobile</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<!--  this is the part where we use the equal part of the body -->
+<body class=" bg-black mt-2">
+    <!-- <div class=" m-4 grid sm:grid-cols-2 gap-4 grid-cols-4">
+    <div class="min-h-25 rounded-lg shadow bg-orange-500 cursor-pointer"></div>
+    <div class="min-h-25 rounded-lg shadow bg-yellow-500 cursor-pointer"></div>
+    <div class="min-h-25 rounded-lg shadow bg-red-500    cursor-pointer"></div>
+    <div class="min-h-25 rounded-lg shadow bg-pink-500   cursor-pointer"></div>
+   </div> -->
+    <!-- now this part of the section will be the non equal form of body  -->
+    <!-- <div class=" m-4 grid grid-cols-1 gap-4 sm:grid-cols-12  ">
+        <div class=" sm:col-span-2 min-h-25 rounded-lg shadow bg-orange-500 cursor-pointer"></div>
+        <div class=" sm:col-span-10 min-h-25 rounded-lg shadow bg-yellow-500 cursor-pointer"></div>
+
+    </div>
+    </body> -->
+
+    <!-- now we will diegn the three part of the body of screen  -->
+    <!-- note this is how we use the grid part to convert  3:3 ratio of screen when size is bigger and 2:2 size of screen in the smaller part of the screen and if you want we can do this by 1:1 ratio of the screen also  -->
+    <div class=" m-4 grid  gap-4  sm:grid-cols-12 ">
+        <div class=" sm:col-span-2 min-h-25 rounded-lg shadow bg-red-500 cursor-pointer sm:block hidden"></div>
+        <div class=" sm:col-span-8 min-h-25 rounded-lg shadow bg-green-500 cursor-pointer"></div>
+        <div class=" hidden sm:col-span-2 min-h-25 rounded-lg shadow bg-purple-500 cursor-pointer sm:block "></div>
+
+    </div>
+    </body>
+
+</html>

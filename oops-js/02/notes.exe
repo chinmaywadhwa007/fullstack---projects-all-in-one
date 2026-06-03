@@ -1,0 +1,34 @@
+one onject is can use properties & methods of another objects 
+simple word childs gets features from there parents 
+
+there are two type of inheritance called prototypes and the class inheritance 
+
+
+diff between the normal object and the constructor function objects 
+
+⚡ Key Differences (IMPORTANT)
+Feature	          Normal Object	    Constructor Function
+Creation	      Manual	        Using new
+Reusability	      ❌ No	          ✅ Yes
+Multiple Object   ❌ Hard          ✅ Easy
+Memory Usage      ❌ More	      ✅ Less (prototype)
+Use Case	      Small data	    Large apps
+
+the diff between the constructor and the inheritance are as follow 
+
+🔥 Key Difference (VERY IMPORTANT)
+"Feature"	      "Constructor"	             "Inheritance"
+Purpose	           Create objects	         Share/reuse properties & methods
+Role	           Blueprint	             Relationship
+Usage	           new Person()	             Object.create() / extends
+Focus	           Object creation	         Code reuse
+
+
+"constructor" create the objects and inheritance allows objects to share and reuse behavior from the other object 
+
+
+what is prototype ??
+means method added to prototype are shared by all objects 
+
+and what is prototype chain?
+js looks for the prototype up in chain

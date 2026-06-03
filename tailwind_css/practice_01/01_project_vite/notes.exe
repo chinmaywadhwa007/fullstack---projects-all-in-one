@@ -1,0 +1,18 @@
+here 1st for installing the tailwind we have to hit the "npm install tailwindcss @tailwindcss/vite" this commond in the terminal
+after that we have to check in the package.json weather this file install or not after checking the installation we will see that hoow to import the tailwind css "import tailwindcss from '@tailwindcss/vite'" this is the  process to import the "tailwind css" after importing we have to use the plugin of the tailwind css 'tailwindcss(),'
+
+after that we have to put the tailwind css file  in to the 'index.css' folder of the vite '@import "tailwindcss";'
+
+now  the process of the tailwind css is exicuted we can run the t s in the browser that can help us to improve our styling 
+
+note:{
+if we are using the styling in the inline css in tailwind we have to check 1st in main css that the things our overdriven to each other or not other vise the problem we have to face like who gets the priority 1st like if we have the same class in h1 in external css and inline css h1 styling it will priority css external  class 
+}
+
+if we have to increase our productivity timing we have to add the daisy ui  in our code for better optimxation then the normal tailwind here it is why
+Tailwind = raw materials (cement, bricks)
+daisyUI = ready-made furniture
+'note basically it will save our time for to build the far better ui from components'
+👉 You can build everything from scratch (Tailwind)
+👉 Or use ready components (daisyUI) to save time
+👉 daisyUI = Tailwind ka shortcut + ready-made UI components

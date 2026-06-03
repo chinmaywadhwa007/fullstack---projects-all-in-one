@@ -1,0 +1,33 @@
+js can start a task now and finish it later without stopping the whole program 
+
+In "JavaScript", "asynchronous" (async) behavior means:
+
+JavaScript can start a task, move on to other work, and handle the result later when the task finishes.
+
+Without "async" behavior, the browser would freeze every time it waited for something slow like:
+
+API calls
+Database requests
+File reading
+Timers
+Loading images/videos
+
+lets understand synchronus method 
+js normally works with line by line 
+console.log("1")
+console.log("2")
+console.log("3")
+output will be 
+1
+2
+3
+this is called "asynchronous"execution
+each line waits for previous work to finish 
+
+             Real Difference
+"Synchronous"	         "Asynchronous"
+Blocks execution	      Non-blocking
+Waits for task	          Continues execution
+Slower UX	              Faster UX
+Sequential	              Background processing
+Can freeze app	          Keeps app responsive

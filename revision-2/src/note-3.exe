@@ -1,0 +1,21 @@
+here we will learn about the how size shrinks while going larger screen to smaller screem 
+
+lets understand how grid will work with tailwind css to build web pages for mobile or smaller screeen
+
+lets breakdown the project 
+this is the main section of the screen
+<div class="m-4 grid gap-4 sm:grid-cols-12">
+What this means:
+m-4 → margin all sides
+grid → enable CSS grid
+gap-4 → spacing between items
+sm:grid-cols-12 → 12 column layout ONLY on small screens and above
+how tailwind works 
+default → mobile
+sm → tablet
+md → laptop
+lg → desktop
+
+👉 “How does Tailwind handle responsiveness?”
+
+ answer: Tailwind uses a mobile-first approach where base styles apply to smaller screens, and breakpoint prefixes like sm, md, lg override styles for larger screens using min-width media queries.

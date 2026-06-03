@@ -1,0 +1,233 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f94e4e, #e8a85a);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+/* Main Container */
+#expense_container {
+  width: 420px;
+  background-color: #ebae3d;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* Heading */
+#expense_container h3 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  color: #181212;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Money Icon */
+#expense_container h3 i {
+  color: #01fe1e;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+
+
+.exp {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  color: rgb(16, 6, 6);
+  font-weight: 700;
+  font-style: normal;
+}
+
+#expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+#expense-list li:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+/* Form Layout */
+#form_data {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Input Styling */
+#form_data input {
+  padding: 14px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input Focus Effect */
+#form_data input:focus {
+  border-color: #f37d08;
+  box-shadow: 0 0 8px rgba(243, 125, 8, 0.4);
+}
+
+/* Button Styling */
+.submit {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ebd33c;
+  color: black;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.submit:hover {
+  background-color: #f37d08;
+  color: white;
+  transform: scale(1.03);
+}
+
+/* Expense Heading */
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Expense List */
+#expense-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+/* Expense Item */
+#expense-list li {
+  background-color: white;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Total Section */
+#total {
+  margin-top: 25px;
+  background-color: white;
+  padding: 18px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Dollar Icon */
+#total i {
+  font-size: 20px;
+  color: #f37d08;
+}
+
+/* Total Text */
+#total h3 {
+  color: #222;
+  margin: 0;
+  font-size: 22px;
+}
+
+/* Total Amount */
+#total-amount {
+  color: #f37d08;
+  font-weight: bold;
+}
+/* delete btn with animations */
+.delete-btn {
+  background: linear-gradient(135deg, #ff4d4d, #d60000);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
+}
+
+.delete-btn:hover {
+  transform: translateY(-2px);
+}
+
+.delete-btn:active {
+  transform: scale(0.95);
+}
+
+.delete-btn::before {
+  content: "🗑 ";
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+  #expense_container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #expense_container h3 {
+    font-size: 20px;
+  }
+
+  #expense-list li {
+    font-size: 15px;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #total {
+    flex-direction: column;
+  }
+}
+
+li:hover {
+  transform: translateY(-3px);
+  transition: 0.3s;
+}

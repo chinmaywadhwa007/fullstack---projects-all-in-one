@@ -1,0 +1,31 @@
+here we will breakdown the how the object work in the js backend 
+step 1 what DOM created here 
+document 
+   body
+      P#hello
+      P#hello2
+        this both tags are the dom nodes (objects)
+
+const element = document.getElementById("hello");
+    means go to DOM 
+        find element with the id = "hello"
+           store that object inside the element
+
+this is what "element" means to create the object in the js in the diff method 
+{
+  tagName: "P",
+  innerHTML: "Lorem ipsum..." means element.innerHTML extracts here 
+
+
+}
+
+
+idiology
+Your code is doing:
+
+👉 “Read from DOM → Process → Write back to DOM”
+
+That’s literally how frontend apps work
+
+
+

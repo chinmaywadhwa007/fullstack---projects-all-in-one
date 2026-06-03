@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expense tracker </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="expense_container">
+        <h3>expense tracker for keeping money save!!
+            <i class="fa-regular fa-money-bill-1"></i>
+        </h3>
+        <div id="form_input">
+            <form action="" id="form_data">
+                <input type="text" id="expance-name" placeholder="expence name  " required>
+                <input type="number" id="amount_holder" placeholder="total amount " required>
+                <button type="submit" class="submit">add to list </button>
+            </form>
+        </div>
+        <h2 class="exp">expense:-</h2>
+        <ul id="expense-list">
+            <!-- expensis will be dynamically added here  -->
+        </ul>
+        <div id="total">
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            <h3>total: <span id="total-amount"> 0.00 </span></h3>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+what do u  mean  by dom and bom lets explain it properly 
+
+doms means its an structured represantation  of a web pages that allows devlopers to access, modify,and controls its contents and structure using javascripts it powers most dynamic websites interaction enabling features like real time updates form validation and inerractive user interface 
+
+                                       the dom tree
+                                             | 
+                                             |
+                                          document 
+                                             |
+                                             |
+                                            html
+                                    "head"          "body"
+                                "meta"    "title"      "hi"   "h2"
+
+
+1.The HTML Document Object Model (DOM) is a tree structure, where each HTML tag becomes a node in the hierarchy.
+
+2.At the top, the <html> tag is the root element, containing both <head> and<body> as child elements.
+
+3.These in turn have their own children, such as <title>, <div>, and nested elements like <h1>, <p>,<ul>, and <li>.
+
+4.Elements that contain other elements are labeled as container elements, while elements that do not are simply child elements.
+
+5.This hierarchy allows developers to navigate and manipulate web page content using JavaScript by traversing from parent to child and vice versa.       
+
+
+the structure of the html
+the dom essntial because....
+the document is the roots
+html <tags>, <head>, and the <body> are the branches 
+artributes, texts, and other element are the leaves 
+
+Types of DOM
+The DOM is seperated into 3 parts:
+
+1.Core DOM: It is standard model for all document types(All DOM implementations must support the interfaces listed as "fundamental" in the code specifications).
+
+2.XML DOM: It is standard model for XML Documents( as the name suggests, all XML elements can be accessed through the XML DOM .)
+
+3.HTML DOM: It is standard model for HTML documents (The HTML DOM is a standard for how to get, change, add, or delete HTML elements
+
+the "Objects" the main thing in the "dom"
+
+all the properties methods and the events available for manupilating and creating web pages are organized into the object inside the dom  (for example, the document is itself an object that represents the document itself, the table an object that implements the special HTMLTableElement DOM interface for accessing HTML tables, and so forth).
+
+the mordern DOM is built using multiple apis that works together 
+the  core dom defines the objects that fundamentally describe a document and the object withen it 
+ this is enhanced and expanded upon needs 
+
+ It shows how different types of HTML elements are related through interfaces, from general to more specific:
+
+EventTarget is the base interface from which most DOM nodes inherit. It allows elements to listen for and respond to events.
+
+Node extends EventTarget and represents any single point in the document tree—such as elements, text, or comments.
+
+Document is a specialized type of Node that acts as the entry point to the entire DOM tree (i.e., the web page).
+
+HTMLElement extends Node and represents any HTML element (like <div>, <p>, etc.).
+
+HTMLTableElement is a more specific type of HTMLElement tailored for <table> elements, giving it extra table-related methods like insertRow().
+
+commonly used DOm methods
+
+    

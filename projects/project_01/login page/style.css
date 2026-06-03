@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* this we can use for the gradient background for a good looking backshadow effect */
+  /* beautiful gradient background */
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.cards {
+  width: 340px;
+  padding: 35px;
+
+  /* glassmorphism */
+  background: rgba(255, 255, 255, 0.15);
+
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  margin-bottom: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.8);
+  transition: 0.3s;
+}
+
+input:focus {
+  background: white;
+  transform: scale(1.03);
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1e04ea, #170808);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}

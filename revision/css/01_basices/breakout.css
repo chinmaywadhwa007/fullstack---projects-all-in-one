@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #1a1a1a;
+}
+
+.responsive-div {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 236px;
+  padding: 20px;
+  color: #141414;
+  background-color: chartreuse;
+  
+}
+/* this method is used for handling the phone screen accordingly but this is the min requirement of that thing to work on this method is called the "media" */
+/* with this method we can understand the how the media runs in the mobile phone responsive */
+@media(max-width:600px){
+  body{
+    align-items: flex-start;
+  }
+  .responsive-div{
+    background-color:darkgoldenrod ;
+  }
+}
+/* for this it will set the ratio where we can goo too max to min width....! */
+@media(min-width:601px) and (max-width:1100px){
+  body{
+    align-items: flex-start;
+  }
+  .responsive-div{
+    background-color:rgb(193, 12, 12) ;
+    color: white;
+  }
+}

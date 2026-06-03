@@ -1,0 +1,36 @@
+according to u is js synchronus and the asynchronus in behavior 
+
+js itself is an synchronus behavior and single-threaded but browser and node js provides the enviroment
+that helps js to behaves asynchronus through  all process is called "event-loop"
+
+
+without this process your website can freeze the ui  
+button would stop working ,
+api would block the page,
+apps like whatsaap instagram youtube would broken
+
+Simplest Real-World Analogy
+
+Imagine:
+
+JavaScript = One Chef
+
+The chef can do one thing at a time.
+
+Web APIs = Assistants
+
+Assistants handle:
+
+oven timer
+food delivery
+phone calls
+Event Loop = Manager
+
+Manager checks:
+
+"Chef free?"
+If yes → gives next completed task
+
+This is exactly how async JS works.
+
+js can only exicutes callbacks by itself

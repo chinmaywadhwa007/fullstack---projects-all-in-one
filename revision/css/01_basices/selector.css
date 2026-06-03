@@ -1,0 +1,78 @@
+/* 1. Universal Selector */
+/* margin means the space between the one element to the other element  */
+/* padding means the inner space in the page is called the padding like it handle the inner space betweeen the selector and for  the padding we are doing the same thing as the margin for the top to right to  left to bottom it goes */
+/* margin has four part like top right left bottom this is the  syntax of the margin  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* this are the just things that just for the remember we are not using it again and again in the project the only thing we will use that pesude classes  */
+/* 2. Type Selector */
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* 3. Class Selector */
+.highlight {
+  background-color: #21a2c9;
+}
+
+/* 4. ID Selector */
+#header {
+    color: white;
+  background-color: #860303;
+}
+/* ()this is peranthises,[] this  is brakit,{} this is braces  */
+/* 5. Attribute Selector */
+input[type="text"] {
+  border: 2px solid #21a2c9;
+}
+
+/* 6. Descendant Selector */
+article p {
+  font-style: italic;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+}
+
+/* 7. Child Selector */
+div > p {
+  background-color: #880404;
+}
+
+/* 8. Adjacent Sibling Selector */
+h1 + p {
+  font-weight: bold;
+}
+
+/* 9. General Sibling Selector */
+h2 ~ p {
+  color: #860303;
+}
+
+/* 10. Pseudo-class Selector */
+
+a:hover {
+  background-color: #14a50e;
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 5px;
+  margin: 4px;
+}
+
+/* 11. Pseudo-element Selector */
+p::first-letter {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* 12. Grouping Selector */
+
+h1,
+h2,
+h3 {
+  color: orange;
+}
