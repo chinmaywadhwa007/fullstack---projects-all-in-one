@@ -1,0 +1,91 @@
+what is clousers
+A closure is a function that remembers and can access variables from its outer (enclosing) scope even after the outer function has finished executing. and whole this exicution and the  enviroment call the lexical scope 
+
+what is hoisting ??
+hoisting is js behavior's of moving decleartion on the top of the exicution is called hoisting but it works with diffrently through diff variables var gives the output for undefined and "let and const are hoisted but remain in the Temporal Dead Zone (TDZ) until their declaration is executed." is the whole process of hositing 
+
+next question what is event loop  and how it works with js ??
+"JavaScript is a single-threaded and synchronous language, meaning it executes code line by line. However, it can handle asynchronous operations using the Event Loop. When asynchronous tasks such as setTimeout, fetch, or promises are encountered, they are delegated to browser APIs or Node.js APIs. Once completed, their callbacks are placed in the Microtask Queue or Callback Queue. The Event Loop continuously checks whether the Call Stack is empty and then moves tasks from these queues to the Call Stack for execution."
+
+work flow 
+Call Stack
+     ↓
+Web APIs
+     ↓
+Callback Queue
+     ↓
+Event Loop
+     ↓
+Call Stack
+
+next question promieses
+how it works 
+promieses is a object  where we put two things resolve and reject those are future predction of your work is done or not what promiese do it create a callback function with them after that will see the output using then and catch method is called promiese without this we can still exicute the task but it become the call stack hell thats why we use promieses in the backend 
+
+"A Promise is an object that represents the future result of an asynchronous operation. Inside a Promise we get two functions, resolve and reject. If the task is completed successfully, we call resolve(), otherwise we call reject(). We handle the result using .then() and .catch(). Without Promises, we would use nested callbacks, which can lead to Callback Hell. Promises make asynchronous code more readable and easier to manage."
+
+what is aynce and wait ??
+Async/Await is built on top of Promises. It doesn't replace Promises internally; it provides cleaner syntax. The await keyword is similar to .then(), and try...catch is used instead of .catch(). This makes asynchronous code easier to read, write, and debug.
+
+"Async and await are a cleaner way to work with Promises. Instead of chaining multiple .then() and .catch() methods, we can write asynchronous code that looks like synchronous code, making it easier to read and maintain. Under the hood, async/await still works with Promises
+
+What Problem Are We Solving?
+
+Imagine a search bar:
+
+input.addEventListener("keyup", searchUser);
+
+If the user types:
+
+C
+Ch
+Chi
+Chin
+Chinm
+Chinma
+Chinmay
+
+Without optimization:
+
+API Call 1
+API Call 2
+API Call 3
+API Call 4
+API Call 5
+API Call 6
+API Call 7
+
+This wastes:
+
+Network requests
+Server resources
+Browser performance
+website become laggie tooo!!
+
+That's where Debouncing and Throttling come in.
+
+Debouncing:- it delays the function eexicution till the user ends there typing after the the action will perform is called Debouncing
+Real-Life Example
+
+Google Search
+
+When you type:
+
+C
+Ch
+Chi
+Chin
+Chinm
+Chinma
+Chinmay
+
+Google doesn't send a request for every character.
+
+It waits until you stop typing.
+
+Then sends:
+
+API Call
+
+only once.
+

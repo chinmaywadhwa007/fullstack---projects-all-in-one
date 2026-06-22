@@ -1,0 +1,24 @@
+what is exicution context 
+is one of the important question of the js interview topics because it connects directly to 
+Hoisting
+Scope
+Closures
+Call Stack
+this
+Event Loop
+its an enviroment in which js code is executed
+
+type of exicution context
+1 globel excution scope
+created when the js file starts exicuting 
+
+2nd function exicution context it will exicute inside the function
+
+what is call stacck means its an dsa level exicutionin js 
+
+it works on lifo last in first out 
+
+
+lets talk about the constructor function
+
+this is the special type of method inside the class that automatically runs when the new obj is created using the new keyword
