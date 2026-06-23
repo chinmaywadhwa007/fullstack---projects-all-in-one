@@ -1,0 +1,12 @@
+  const mimeTypes = {
+        '.html': 'text/html',
+        '.css': 'text/css',
+        '.js': 'text/javascript',
+        '.png': 'img/png'
+
+    }this is  the mimeTypes tells the browser what types of files to be sent 
+    the dff between the routes and the mimeTypes
+    Routes = Which page/file should be served?
+    MIME Types = What kind of content is this file?
+
+You need both. The dynamic file server you built is useful because it can serve any HTML, CSS, JS, or image file without writing a separate route for every file

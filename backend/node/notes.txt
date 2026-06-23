@@ -1,0 +1,35 @@
+file structure and the work flow of the task 
+1 loading task 
+const loadTask = () => {
+    try {
+        const databuffer = fs.readFileSync(filePath)
+        const dataJson = databuffer.toString()
+        return JSON.parse(dataJson)
+    } catch (error) {
+        return []
+    }
+}
+it reads ./nnode.text file 
+converts the file data from the buffer to text
+converts the json text into the js array 
+returns an empty array if the files does exist or contains invalid json
+
+
+2nd save tasks
+const saveTask =(tasks)=>{
+    const datjson p json.stringify(tasks)
+    fs.writeFileSync (filePath,dataJson)
+}
+it converts the task array to jscon and writes it into the node.text
+[{"task":"Learn Node.js"},{"task":"Build a project"}] example 
+
+3rd adding task 
+const addTask = (task) => {
+    const tasks = loadTask()
+    tasks.push({ task })
+    saveTask(tasks)
+    console.log('Task added:', task)
+}
+steps load existing tasksadd a new task object 
+saves the updated array
+print a conformation 
